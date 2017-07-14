@@ -2,30 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <script src="https://unpkg.com/react@latest/dist/react.js"></script>
     <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
 
     <script src="//cdn.jsdelivr.net/pouchdb/latest/pouchdb.min.js"></script>
-
-    <script src="index-pouch.js"></script>
-
-    <script src="index-react.js"></script>
 
     <title>React Hello World</title>
   </head>
   <body>
     
     <h1>React example</h1>
-    <div id='numbers'></div>
 
     <div id='root'></div>
 
+    <pre id="pouchdb"></pre>
 
-    <div id="object"></div>
-    <pre id="display2"></pre>
-    <pre id="display1"></pre>
+    <div id='numbers'></div>
 
-    
+
+    <script src="index-pouch.js"></script>
+
+    <script type="text/babel" src="index.js"></script>
+
+    <script type="text/babel" src="numbers.js"></script>
+
 
   </body>
 </html>

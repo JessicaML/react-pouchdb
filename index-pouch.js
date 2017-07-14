@@ -11,6 +11,6 @@ var doc = {
 db.put(doc).then(function () {
   return db.get('1');
 }).then(function (doc) {
-  document.getElementById('display2').innerHTML = 'Notifications: ' + JSON.stringify(doc);
+  document.getElementById('pouchdb').innerHTML = 'Notifications: ' + JSON.stringify(doc);
 });
 
